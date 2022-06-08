@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('record');
+    return view('welcome');
 });
 
 Route::get('get', [SheetdbController::class, 'get']);
